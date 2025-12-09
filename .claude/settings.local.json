@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell -ExecutionPolicy Bypass -File \".specify/scripts/powershell/check-prerequisites.ps1\" -Json -RequireTasks -IncludeTasks)",
+      "Bash(git fetch --all --prune)",
+      "Bash(git checkout -b \"001-digital-twin-sim\")",
+      "Bash(powershell -ExecutionPolicy Bypass -File \".specify/scripts/powershell/update-agent-context.ps1\" -AgentType claude)",
+      "Bash(powershell -ExecutionPolicy Bypass -File \".specify/scripts/powershell/check-prerequisites.ps1\" -Json -PathsOnly)",
+      "Bash(dir specs /s /b)",
+      "Bash(powershell -ExecutionPolicy Bypass -File \".specify/scripts/powershell/setup-plan.ps1\" -Json)",
+      "Bash(powershell -ExecutionPolicy Bypass -File \".specify/scripts/powershell/check-prerequisites.ps1\" -Json)",
+      "Bash(dir specs /ad /b)",
+      "Bash(dir \"specs\\003-vla-module\")",
+      "SlashCommand(/sp.implement)",
+      "Bash(dir \"specs\\003-vla-module\\checklists\")",
+      "Bash(git rev-parse --git-dir)",
+      "Bash(npm install)",
+      "Bash(npm run build)",
+      "Bash(node backend/api/vla-validation-test.js)",
+      "Bash(python test_llm_integration_examples.py)",
+      "Bash(ren \"examples\\vla\\llm-integration\\llm-cognitive-planner.py\" \"llm_cognitive_planner.py\")",
+      "Bash(rename \"examples\\vla\\llm-integration\\llm-cognitive-planner.py\" \"llm_cognitive_planner.py\")",
+      "Bash(dir \"examples\\vla\\llm-integration\" /b)",
+      "Bash(ren \"llm-cognitive-planner.py\" \"llm_cognitive_planner.py\")",
+      "Bash(dir \"book\\.gitignore\")",
+      "Bash(python test_voice_processing.py)",
+      "Bash(powershell -ExecutionPolicy Bypass -File \"..\\..\\.specify\\scripts\\powershell\\check-prerequisites.ps1\" -Json -RequireTasks -IncludeTasks)",
+      "Bash(git checkout -b 001-ros2-book-module1)",
+      "SlashCommand(/sp.plan)",
+      "Bash(git rev-parse --abbrev-ref HEAD)",
+      "Bash(git init)",
+      "Bash(git add .)",
+      "Bash(git add . -f)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

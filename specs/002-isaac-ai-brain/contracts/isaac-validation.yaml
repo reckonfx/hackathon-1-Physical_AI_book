@@ -1,0 +1,93 @@
+openapi: 3.0.0
+info:
+  title: Isaac Sim Validation API
+  description: API for validating Isaac Sim examples and content in the AI-Robot Brain module
+  version: 1.0.0
+paths:
+  /api/validate-isaac-sim:
+    post:
+      summary: Validate Isaac Sim examples for correctness
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                simulation_type:
+                  type: string
+                  description: Type of Isaac Sim validation (isaac-sim, isaac-ros, vslam, nav2)
+                example_path:
+                  type: string
+                  description: Path to the Isaac Sim example
+                validation_criteria:
+                  type: array
+                  items:
+                    type: string
+                  description: Specific criteria to validate
+              required:
+                - simulation_type
+                - example_path
+      responses:
+        '200':
+          description: Validation results
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  is_valid:
+                    type: boolean
+                  issues:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                        message:
+                          type: string
+                        severity:
+                          type: string
+                  suggestions:
+                    type: array
+                    items:
+                      type: string
+  /api/isaac-sim-examples:
+    get:
+      summary: Get available Isaac Sim examples
+      parameters:
+        - name: environment
+          in: query
+          description: Filter by simulation environment (isaac-sim, isaac-ros, nav2, vslam)
+          required: false
+          schema:
+            type: string
+        - name: type
+          in: query
+          description: Filter by example type (scene-setup, perception, vslam, navigation)
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: List of available Isaac Sim examples
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: string
+                    title:
+                      type: string
+                    environment:
+                      type: string
+                    type:
+                      type: string
+                    description:
+                      type: string
+                    lesson:
+                      type: string

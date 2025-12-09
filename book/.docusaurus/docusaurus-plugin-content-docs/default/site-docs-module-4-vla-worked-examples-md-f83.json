@@ -1,0 +1,20 @@
+{
+  "id": "module-4-vla/worked-examples",
+  "title": "Worked Examples: Full VLA Pipeline",
+  "description": "This document provides detailed worked examples showing the complete Vision-Language-Action (VLA) pipeline from voice input to robot execution.",
+  "source": "@site/docs/module-4-vla/worked-examples.md",
+  "sourceDirName": "module-4-vla",
+  "slug": "/module-4-vla/worked-examples",
+  "permalink": "/docs/module-4-vla/worked-examples",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-4-vla/worked-examples.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Glossary: Vision-Language-Action (VLA) Systems",
+    "permalink": "/docs/module-4-vla/glossary"
+  }
+}

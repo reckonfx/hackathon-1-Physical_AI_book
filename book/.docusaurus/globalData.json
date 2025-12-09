@@ -1,0 +1,58 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "module-4-vla/lesson-1-vla-fundamentals",
+          "docs": [
+            {
+              "id": "module-4-vla/comprehensive-exercises",
+              "path": "/docs/module-4-vla/comprehensive-exercises",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-4-vla/cross-references",
+              "path": "/docs/module-4-vla/cross-references",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-4-vla/glossary",
+              "path": "/docs/module-4-vla/glossary",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-4-vla/lesson-1-vla-fundamentals",
+              "path": "/docs/module-4-vla/lesson-1-vla-fundamentals",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-4-vla/lesson-2-vla-capstone",
+              "path": "/docs/module-4-vla/lesson-2-vla-capstone",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-4-vla/worked-examples",
+              "path": "/docs/module-4-vla/worked-examples",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/module-4-vla/lesson-1-vla-fundamentals",
+                "label": "module-4-vla/lesson-1-vla-fundamentals"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

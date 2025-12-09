@@ -1,0 +1,93 @@
+openapi: 3.0.0
+info:
+  title: Digital Twin Simulation Validation API
+  description: API for validating simulation examples and content in the Digital Twin module
+  version: 1.0.0
+paths:
+  /api/validate-simulation:
+    post:
+      summary: Validate simulation examples for correctness
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                simulation_type:
+                  type: string
+                  description: Type of simulation to validate (gazebo, unity, sensor)
+                example_path:
+                  type: string
+                  description: Path to the simulation example
+                validation_criteria:
+                  type: array
+                  items:
+                    type: string
+                  description: Specific criteria to validate
+              required:
+                - simulation_type
+                - example_path
+      responses:
+        '200':
+          description: Validation results
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  is_valid:
+                    type: boolean
+                  issues:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        type:
+                          type: string
+                        message:
+                          type: string
+                        severity:
+                          type: string
+                  suggestions:
+                    type: array
+                    items:
+                      type: string
+  /api/simulation-examples:
+    get:
+      summary: Get available simulation examples
+      parameters:
+        - name: environment
+          in: query
+          description: Filter by simulation environment (gazebo, unity, or both)
+          required: false
+          schema:
+            type: string
+        - name: type
+          in: query
+          description: Filter by example type (physics, rendering, sensor)
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: List of available simulation examples
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: string
+                    title:
+                      type: string
+                    environment:
+                      type: string
+                    type:
+                      type: string
+                    description:
+                      type: string
+                    lesson:
+                      type: string

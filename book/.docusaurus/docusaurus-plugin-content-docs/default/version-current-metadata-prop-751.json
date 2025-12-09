@@ -1,0 +1,102 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "category",
+        "label": "Module 4 - VLA",
+        "items": [
+          {
+            "type": "link",
+            "label": "VLA Pipeline and Voice-to-Action Translation",
+            "href": "/docs/module-4-vla/lesson-1-vla-fundamentals",
+            "docId": "module-4-vla/lesson-1-vla-fundamentals",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "LLM Integration and Cognitive Planning",
+            "href": "/docs/module-4-vla/lesson-2-vla-capstone",
+            "docId": "module-4-vla/lesson-2-vla-capstone",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Comprehensive VLA Exercises",
+            "href": "/docs/module-4-vla/comprehensive-exercises",
+            "docId": "module-4-vla/comprehensive-exercises",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Cross-References: VLA Concepts and Lessons",
+            "href": "/docs/module-4-vla/cross-references",
+            "docId": "module-4-vla/cross-references",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Glossary: Vision-Language-Action (VLA) Systems",
+            "href": "/docs/module-4-vla/glossary",
+            "docId": "module-4-vla/glossary",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Worked Examples: Full VLA Pipeline",
+            "href": "/docs/module-4-vla/worked-examples",
+            "docId": "module-4-vla/worked-examples",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
+    ]
+  },
+  "docs": {
+    "module-4-vla/comprehensive-exercises": {
+      "id": "module-4-vla/comprehensive-exercises",
+      "title": "Comprehensive VLA Exercises",
+      "description": "This document contains comprehensive exercises that combine VLA, cognitive planning, and capstone concepts from the entire module.",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-4-vla/cross-references": {
+      "id": "module-4-vla/cross-references",
+      "title": "Cross-References: VLA Concepts and Lessons",
+      "description": "This document provides cross-references between related concepts, lessons, and examples in the VLA module.",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-4-vla/glossary": {
+      "id": "module-4-vla/glossary",
+      "title": "Glossary: Vision-Language-Action (VLA) Systems",
+      "description": "This glossary defines key terms used throughout the VLA module.",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-4-vla/lesson-1-vla-fundamentals": {
+      "id": "module-4-vla/lesson-1-vla-fundamentals",
+      "title": "VLA Pipeline and Voice-to-Action Translation",
+      "description": "Introduction to Vision-Language-Action (VLA) pipeline fundamentals",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-4-vla/lesson-2-vla-capstone": {
+      "id": "module-4-vla/lesson-2-vla-capstone",
+      "title": "LLM Integration and Cognitive Planning",
+      "description": "Advanced VLA concepts with LLM integration and cognitive planning",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-4-vla/worked-examples": {
+      "id": "module-4-vla/worked-examples",
+      "title": "Worked Examples: Full VLA Pipeline",
+      "description": "This document provides detailed worked examples showing the complete Vision-Language-Action (VLA) pipeline from voice input to robot execution.",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

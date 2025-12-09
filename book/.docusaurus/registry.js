@@ -1,0 +1,13 @@
+export default {
+  "17896441": [() => import(/* webpackChunkName: "17896441" */ "@theme/DocItem"), "@theme/DocItem", require.resolveWeak("@theme/DocItem")],
+  "5e95c892": [() => import(/* webpackChunkName: "5e95c892" */ "@theme/DocsRoot"), "@theme/DocsRoot", require.resolveWeak("@theme/DocsRoot")],
+  "60072968": [() => import(/* webpackChunkName: "60072968" */ "@site/docs/module-4-vla/lesson-1-vla-fundamentals.md"), "@site/docs/module-4-vla/lesson-1-vla-fundamentals.md", require.resolveWeak("@site/docs/module-4-vla/lesson-1-vla-fundamentals.md")],
+  "708afa4c": [() => import(/* webpackChunkName: "708afa4c" */ "@site/docs/module-4-vla/comprehensive-exercises.md"), "@site/docs/module-4-vla/comprehensive-exercises.md", require.resolveWeak("@site/docs/module-4-vla/comprehensive-exercises.md")],
+  "79c5c3f0": [() => import(/* webpackChunkName: "79c5c3f0" */ "C:\\Users\\AKE\\Desktop\\hackathon\\book\\.docusaurus\\docusaurus-plugin-content-docs\\default\\plugin-route-context-module-100.json"), "C:\\Users\\AKE\\Desktop\\hackathon\\book\\.docusaurus\\docusaurus-plugin-content-docs\\default\\plugin-route-context-module-100.json", require.resolveWeak("C:\\Users\\AKE\\Desktop\\hackathon\\book\\.docusaurus\\docusaurus-plugin-content-docs\\default\\plugin-route-context-module-100.json")],
+  "935f2afb": [() => import(/* webpackChunkName: "935f2afb" */ "~docs/default/version-current-metadata-prop-751.json"), "~docs/default/version-current-metadata-prop-751.json", require.resolveWeak("~docs/default/version-current-metadata-prop-751.json")],
+  "a7bd4aaa": [() => import(/* webpackChunkName: "a7bd4aaa" */ "@theme/DocVersionRoot"), "@theme/DocVersionRoot", require.resolveWeak("@theme/DocVersionRoot")],
+  "a94703ab": [() => import(/* webpackChunkName: "a94703ab" */ "@theme/DocRoot"), "@theme/DocRoot", require.resolveWeak("@theme/DocRoot")],
+  "b37aae09": [() => import(/* webpackChunkName: "b37aae09" */ "@site/docs/module-4-vla/lesson-2-vla-capstone.md"), "@site/docs/module-4-vla/lesson-2-vla-capstone.md", require.resolveWeak("@site/docs/module-4-vla/lesson-2-vla-capstone.md")],
+  "c0ed347a": [() => import(/* webpackChunkName: "c0ed347a" */ "@site/docs/module-4-vla/glossary.md"), "@site/docs/module-4-vla/glossary.md", require.resolveWeak("@site/docs/module-4-vla/glossary.md")],
+  "ca510c5a": [() => import(/* webpackChunkName: "ca510c5a" */ "@site/docs/module-4-vla/cross-references.md"), "@site/docs/module-4-vla/cross-references.md", require.resolveWeak("@site/docs/module-4-vla/cross-references.md")],
+  "f831ffd0": [() => import(/* webpackChunkName: "f831ffd0" */ "@site/docs/module-4-vla/worked-examples.md"), "@site/docs/module-4-vla/worked-examples.md", require.resolveWeak("@site/docs/module-4-vla/worked-examples.md")],};
