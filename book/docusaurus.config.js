@@ -7,20 +7,20 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Physical AI & Humanoid Robotics',
-  tagline: 'Learn embodied AI, ROS 2, and robotics through hands-on examples',
+  tagline: 'A Comprehensive Guide by Aamir Ahmed Shamsi with Claude AI',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://aamirahmedshamsi.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/physical-ai-book/',
 
   // GitHub pages deployment config.
-  organizationName: 'facebook',
-  projectName: 'docusaurus',
+  organizationName: 'aamirahmedshamsi',
+  projectName: 'physical-ai-book',
 
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -41,15 +41,9 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/aamirahmedshamsi/physical-ai-book/edit/main/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -71,12 +65,30 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'ros2Sidebar',
+            position: 'left',
+            label: 'Module 1 - ROS2',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'gazeboSidebar',
+            position: 'left',
+            label: 'Module 2 - Gazebo',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'isaacSidebar',
+            position: 'left',
+            label: 'Module 3 - Isaac',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'vlaSidebar',
             position: 'left',
             label: 'Module 4 - VLA',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/aamirahmedshamsi/physical-ai-book',
             label: 'GitHub',
             position: 'right',
           },
@@ -86,46 +98,37 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Modules',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'ROS2 Fundamentals',
+                to: '/docs/ros2-fundamentals/intro',
+              },
+              {
+                label: 'Gazebo & Unity Simulation',
+                to: '/docs/gazebo-unity-sim/intro',
+              },
+              {
+                label: 'AI-Robot Brain (Isaac)',
+                to: '/docs/isaac-ai-brain/intro',
+              },
+              {
+                label: 'VLA Models',
+                to: '/docs/vla-models/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Resources',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'GitHub Repository',
+                href: 'https://github.com/aamirahmedshamsi/physical-ai-book',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Aamir Ahmed Shamsi (GIAIC ID: 00486031). Built with Claude AI assistance.`,
       },
       prism: {
         theme: lightCodeTheme,

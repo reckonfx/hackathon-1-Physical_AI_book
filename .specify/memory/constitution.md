@@ -1,12 +1,20 @@
 <!--
 Sync Impact Report:
-Version change: N/A → 1.0.0
-Added sections: All principles and sections for Physical AI & Humanoid Robotics project
+Version change: 1.0.0 → 1.1.0
+Added sections: GitHub configuration section
+Modified principles: None
 Removed sections: None
 Templates requiring updates: ⚠ pending - .specify/templates/plan-template.md, .specify/templates/spec-template.md, .specify/templates/tasks-template.md
-Follow-up TODOs: RATIFICATION_DATE needs to be set
+Follow-up TODOs: None
 -->
 # Physical AI & Humanoid Robotics — Spec-Driven Book + Embedded RAG Chatbot Constitution
+
+## GitHub Configuration
+
+Repository: [https://github.com/reckonfx/hackathon-1-Physical_AI_book.git](https://github.com/reckonfx/hackathon-1-Physical_AI_book.git)
+Branch: main
+Auto-commit: true
+Commit message prefix: [Specskit]
 
 ## Core Principles
 
@@ -53,4 +61,4 @@ All implementations must comply with technical coverage requirements
 Code reviews verify compliance with all principles and constraints
 Amendments require documentation and justification
 
-**Version**: 1.0.0 | **Ratified**: TODO(RATIFICATION_DATE): Original adoption date unknown | **Last Amended**: 2025-12-08
+**Version**: 1.1.0 | **Ratified**: 2025-12-08 | **Last Amended**: 2025-12-10

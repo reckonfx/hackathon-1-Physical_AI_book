@@ -23,6 +23,16 @@ Success criteria:
 Constraints:
 - Module length: 6,000 words max, Docusaurus Markdown format, open-source diagrams only, Python + ROS 2 code examples, no hallucinated APIs."
 
+## Clarifications
+
+### Session 2025-12-09
+
+- Q: What type of learning experience should be provided for students? → A: Interactive tutorials with hands-on exercises
+- Q: What GPU specifications should we target for Isaac Sim? → A: RTX 4090 or equivalent
+- Q: Which ROS 2 distribution should we use for Isaac ROS integration? → A: ROS 2 Humble Hawksbill (LTS)
+- Q: How should we implement Nav2 navigation for bipedal path planning? → A: Custom bipedal plugin with Nav2
+- Q: What should be the focus of synthetic data generation? → A: Perception training data
+
 ## User Scenarios & Testing *(mandatory)*
 
 <!--
@@ -97,33 +107,37 @@ Students need to understand the Nav2 navigation stack and implement path plannin
 - **FR-001**: System MUST provide clear explanations of NVIDIA Isaac Sim fundamentals and scene setup procedures for humanoid robotics applications
 - **FR-002**: System MUST demonstrate Isaac ROS integration with perception pipelines using visual and sensor data processing
 - **FR-003**: System MUST explain VSLAM (Visual Simultaneous Localization and Mapping) concepts with practical examples and code
-- **FR-004**: System MUST provide Nav2 navigation stack implementation with bipedal path planning examples
-- **FR-005**: System MUST include synthetic data generation workflows for training humanoid perception systems
+- **FR-004**: System MUST provide Nav2 navigation stack implementation with custom bipedal plugin for path planning examples
+- **FR-005**: System MUST include synthetic data generation workflows for training humanoid perception systems with focus on perception training data
 - **FR-006**: System MUST deliver content in 4-7 well-structured lessons optimized for retrieval-augmented generation (RAG) systems
 - **FR-007**: System MUST provide runnable Python + ROS 2 code examples that students can execute and validate
 - **FR-008**: System MUST include open-source or AI-generated diagrams illustrating perception and navigation pipelines
 - **FR-009**: System MUST structure content for RAG retrieval with clean headings and chunk-friendly sections (500-1200 characters)
 - **FR-010**: System MUST ensure all technical descriptions are factually accurate with no hallucinated APIs or capabilities
+- **FR-011**: System MUST provide interactive tutorials with hands-on exercises that allow students to practice with immediate feedback
 
 ### Key Entities
 
-- **Isaac Sim Environment**: A simulation environment for humanoid robotics with physics, rendering, and sensor capabilities
-- **Isaac ROS Pipeline**: A framework for connecting Isaac Sim with ROS 2 for perception and control applications
+- **Isaac Sim Environment**: A simulation environment for humanoid robotics with physics, rendering, and sensor capabilities (requires RTX 4090 or equivalent GPU for realistic rendering)
+- **Isaac ROS Pipeline**: A framework for connecting Isaac Sim with ROS 2 Humble Hawksbill (LTS) for perception and control applications
 - **VSLAM System**: A visual SLAM implementation for robot localization and mapping using camera and sensor data
-- **Nav2 Navigation Stack**: A navigation system for path planning and execution with bipedal movement constraints
+- **Nav2 Navigation Stack**: A navigation system for path planning and execution with custom bipedal plugin for two-legged humanoid locomotion
 - **Perception Pipeline**: A processing system that converts sensor data (LiDAR, cameras) into environmental understanding
-- **Synthetic Data Generator**: A system for creating training data from simulation environments for AI model training
+- **Synthetic Data Generator**: A system for creating perception training data from simulation environments for AI model training
 - **Bipedal Path Planner**: A navigation component that generates paths suitable for two-legged humanoid locomotion
+- **Interactive Tutorial Framework**: A system providing hands-on exercises with immediate feedback for student learning
 
 ## Success Criteria *(mandatory)*
 
 ### Measurable Outcomes
 
 - **SC-001**: Students can explain Isaac Sim fundamentals and create basic simulation scenes with humanoid robots after completing the first lesson
-- **SC-002**: Students can implement Isaac ROS perception pipelines and observe visual data processing into spatial understanding after completing the perception lesson
+- **SC-002**: Students can implement Isaac ROS perception pipelines using ROS 2 Humble Hawksbill (LTS) and observe visual data processing into spatial understanding after completing the perception lesson
 - **SC-003**: Students can successfully run Isaac Sim VSLAM examples and observe real-time environment mapping after completing the VSLAM lesson
-- **SC-004**: Students can set up Nav2 navigation for humanoid robots and observe path planning with bipedal movement constraints after completing the navigation lesson
+- **SC-004**: Students can set up Nav2 navigation with custom bipedal plugin for humanoid robots and observe path planning with bipedal movement constraints after completing the navigation lesson
 - **SC-005**: Students can execute all provided Python + ROS 2 code examples without errors and validate the expected outcomes
 - **SC-006**: Content is structured as 4-7 well-organized lessons that flow logically from Isaac Sim fundamentals to advanced navigation
 - **SC-007**: All content is optimized for retrieval-augmented generation (RAG) systems with appropriate content chunking (500-1200 characters)
 - **SC-008**: 90% of students report that the explanations are clear and suitable for their intermediate skill level
+- **SC-009**: Students can complete interactive tutorials with hands-on exercises and receive immediate feedback on their progress
+- **SC-010**: Students can generate perception training data using synthetic data workflows in Isaac Sim environment

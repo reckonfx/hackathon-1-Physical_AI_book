@@ -39,14 +39,14 @@ Initialize the Docusaurus project structure for the Physical AI Book with Module
 
 ### Implementation Tasks
 
-- [ ] T001 Create book directory structure with docs/, src/, static/, and configuration files
-- [ ] T002 Initialize Docusaurus v3 project with proper configuration files (docusaurus.config.js, sidebars.js)
-- [ ] T003 Set up package.json with required dependencies for Docusaurus and development
-- [ ] T004 Create module-3-ai-robot-brain directory in docs/ with initial placeholder files
-- [ ] T005 Configure sidebar navigation to include Module 3 in the book structure
-- [ ] T006 Set up static/img directory for diagrams and visual content
-- [ ] T007 Create src/components directory for custom Docusaurus components
-- [ ] T008 Verify development server starts with `npm start` and build works with `npm run build`
+- [X] T001 Create book directory structure with docs/, src/, static/, and configuration files
+- [X] T002 Initialize Docusaurus v3 project with proper configuration files (docusaurus.config.js, sidebars.js)
+- [X] T003 Set up package.json with required dependencies for Docusaurus and development
+- [X] T004 Create module-3-ai-robot-brain directory in docs/ with initial placeholder files
+- [X] T005 Configure sidebar navigation to include Module 3 in the book structure
+- [X] T006 Set up static/img directory for diagrams and visual content
+- [X] T007 Create src/components directory for custom Docusaurus components
+- [X] T008 Verify development server starts with `npm start` and build works with `npm run build`
 
 ---
 
@@ -63,14 +63,14 @@ Establish the foundational content structure, RAG-optimized chunking approach, a
 
 ### Implementation Tasks
 
-- [ ] T009 [P] Create Isaac Sim validation API endpoints based on OpenAPI contract
-- [ ] T010 [P] Set up Isaac Sim examples directory structure (isaac-sim/ and synthetic-data/ subdirectories)
-- [ ] T011 [P] Create content chunking guidelines document for RAG optimization
-- [ ] T012 [P] Set up citation and reference system for official documentation links
-- [ ] T013 [P] Create template for lesson structure with metadata, objectives, and exercises
-- [ ] T014 [P] Set up diagram creation workflow with AI-generated/open-source guidelines
-- [ ] T015 Create Isaac Sim validation API implementation in backend/api/
-- [ ] T016 Test Isaac Sim validation API endpoints for basic functionality
+- [X] T009 [P] Create Isaac Sim validation API endpoints based on OpenAPI contract
+- [X] T010 [P] Set up Isaac Sim examples directory structure (isaac-sim/ and synthetic-data/ subdirectories)
+- [X] T011 [P] Create content chunking guidelines document for RAG optimization
+- [X] T012 [P] Set up citation and reference system for official documentation links
+- [X] T013 [P] Create template for lesson structure with metadata, objectives, and exercises
+- [X] T014 [P] Set up diagram creation workflow with AI-generated/open-source guidelines
+- [X] T015 Create Isaac Sim validation API implementation in backend/api/
+- [X] T016 Test Isaac Sim validation API endpoints for basic functionality
 
 ---
 
@@ -85,20 +85,20 @@ Students can read explanations of Isaac Sim concepts and successfully create bas
 
 ### Implementation Tasks
 
-- [ ] T017 [P] [US1] Create lesson-1-isaac-sim-fundamentals.md with introduction to Isaac Sim concepts
-- [ ] T018 [P] [US1] Write content explaining Isaac Sim fundamentals and scene setup procedures
-- [ ] T019 [P] [US1] Create diagrams showing Isaac Sim architecture and simulation concepts
-- [ ] T020 [P] [US1] Write content about Isaac Sim installation and verification procedures
-- [ ] T021 [US1] Add lesson metadata (id, title, sidebar_position, description) to lesson-1 file
-- [ ] T022 [US1] Include learning objectives and prerequisites for the Isaac Sim lesson
-- [ ] T023 [US1] Add exercises and practice problems related to Isaac Sim fundamentals
-- [ ] T024 [US1] Add official documentation references and citations for Isaac Sim concepts
-- [ ] T025 [US1] Ensure content follows RAG chunking requirements (500-1200 characters)
-- [ ] T026 [US1] Validate lesson content with official documentation sources
-- [ ] T027 [P] [US1] Create scene-setup example in examples/isaac-sim/scene-setup/
-- [ ] T028 [P] [US1] Write runnable Python + ROS 2 code examples for Isaac Sim scene setup
-- [ ] T029 [US1] Test Isaac Sim examples to ensure they work correctly with humanoid robots
-- [ ] T030 [US1] Add troubleshooting section for common Isaac Sim scene setup issues
+- [X] T017 [P] [US1] Create lesson-1-isaac-sim-fundamentals.md with introduction to Isaac Sim concepts
+- [X] T018 [P] [US1] Write content explaining Isaac Sim fundamentals and scene setup procedures
+- [X] T019 [P] [US1] Create diagrams showing Isaac Sim architecture and simulation concepts
+- [X] T020 [P] [US1] Write content about Isaac Sim installation and verification procedures
+- [X] T021 [US1] Add lesson metadata (id, title, sidebar_position, description) to lesson-1 file
+- [X] T022 [US1] Include learning objectives and prerequisites for the Isaac Sim lesson
+- [X] T023 [US1] Add exercises and practice problems related to Isaac Sim fundamentals
+- [X] T024 [US1] Add official documentation references and citations for Isaac Sim concepts
+- [X] T025 [US1] Ensure content follows RAG chunking requirements (500-1200 characters)
+- [X] T026 [US1] Validate lesson content with official documentation sources
+- [X] T027 [P] [US1] Create scene-setup example in examples/isaac-sim/scene-setup/
+- [X] T028 [P] [US1] Write runnable Python + ROS 2 code examples for Isaac Sim scene setup
+- [X] T029 [US1] Test Isaac Sim examples to ensure they work correctly with humanoid robots
+- [X] T030 [US1] Add troubleshooting section for common Isaac Sim scene setup issues
 
 ---
 
@@ -113,18 +113,18 @@ Students can run the provided VSLAM examples and observe how visual and sensor d
 
 ### Implementation Tasks
 
-- [ ] T031 [P] [US2] Create lesson-2-isaac-ros-vslam.md with introduction to Isaac ROS and VSLAM concepts
-- [ ] T032 [P] [US2] Write content explaining Isaac ROS integration with perception pipelines
-- [ ] T033 [P] [US2] Create perception-pipelines example in examples/isaac-sim/perception-pipelines/
-- [ ] T034 [P] [US2] Create vslam-examples in examples/isaac-sim/vslam-examples/
-- [ ] T035 [US2] Add Isaac ROS setup instructions and verification steps to lesson content
-- [ ] T036 [US2] Include diagrams showing perception pipeline architecture and data flow
-- [ ] T037 [US2] Add hands-on exercises for students to practice perception pipeline implementation
-- [ ] T038 [US2] Add official documentation references for Isaac ROS and VSLAM concepts
-- [ ] T039 [US2] Ensure content follows RAG chunking requirements (500-1200 characters)
-- [ ] T040 [US2] Test Isaac ROS examples to ensure they work correctly with perception pipelines
-- [ ] T041 [US2] Write runnable Python + ROS 2 code examples for VSLAM implementation
-- [ ] T042 [US2] Add troubleshooting section for common Isaac ROS and VSLAM issues
+- [X] T031 [P] [US2] Create lesson-2-isaac-ros-vslam.md with introduction to Isaac ROS and VSLAM concepts
+- [X] T032 [P] [US2] Write content explaining Isaac ROS integration with perception pipelines
+- [X] T033 [P] [US2] Create perception-pipelines example in examples/isaac-sim/perception-pipelines/
+- [X] T034 [P] [US2] Create vslam-examples in examples/isaac-sim/vslam-examples/
+- [X] T035 [US2] Add Isaac ROS setup instructions and verification steps to lesson content
+- [X] T036 [US2] Include diagrams showing perception pipeline architecture and data flow
+- [X] T037 [US2] Add hands-on exercises for students to practice perception pipeline implementation
+- [X] T038 [US2] Add official documentation references for Isaac ROS and VSLAM concepts
+- [X] T039 [US2] Ensure content follows RAG chunking requirements (500-1200 characters)
+- [X] T040 [US2] Test Isaac ROS examples to ensure they work correctly with perception pipelines
+- [X] T041 [US2] Write runnable Python + ROS 2 code examples for VSLAM implementation
+- [X] T042 [US2] Add troubleshooting section for common Isaac ROS and VSLAM issues
 
 ---
 
@@ -139,18 +139,18 @@ Students can set up Nav2 navigation for humanoid robots and observe path plannin
 
 ### Implementation Tasks
 
-- [ ] T043 [P] [US3] Create lesson-3-nav2-navigation.md with introduction to Nav2 navigation stack
-- [ ] T044 [P] [US3] Write content explaining Nav2 with bipedal movement constraints
-- [ ] T045 [P] [US3] Create nav2-navigation example in examples/isaac-sim/nav2-navigation/
-- [ ] T046 [P] [US3] Create synthetic data generation examples in examples/synthetic-data/training-workflows/
-- [ ] T047 [US3] Add Nav2 setup instructions and verification steps to lesson content
-- [ ] T048 [US3] Include diagrams showing navigation pipeline and bipedal path planning concepts
-- [ ] T049 [US3] Add hands-on exercises for students to practice navigation implementation
-- [ ] T050 [US3] Add official documentation references for Nav2 and bipedal navigation
-- [ ] T051 [US3] Ensure content follows RAG chunking requirements (500-1200 characters)
-- [ ] T052 [US3] Test Nav2 examples to ensure they work correctly with bipedal constraints
-- [ ] T053 [US3] Write runnable Python + ROS 2 code examples for Nav2 navigation
-- [ ] T054 [US3] Add troubleshooting section for common Nav2 and bipedal navigation issues
+- [X] T043 [P] [US3] Create lesson-3-nav2-navigation.md with introduction to Nav2 navigation stack
+- [X] T044 [P] [US3] Write content explaining Nav2 with bipedal movement constraints
+- [X] T045 [P] [US3] Create nav2-navigation example in examples/isaac-sim/nav2-navigation/
+- [X] T046 [P] [US3] Create synthetic data generation examples in examples/synthetic-data/training-workflows/
+- [X] T047 [US3] Add Nav2 setup instructions and verification steps to lesson content
+- [X] T048 [US3] Include diagrams showing navigation pipeline and bipedal path planning concepts
+- [X] T049 [US3] Add hands-on exercises for students to practice navigation implementation
+- [X] T050 [US3] Add official documentation references for Nav2 and bipedal navigation
+- [X] T051 [US3] Ensure content follows RAG chunking requirements (500-1200 characters)
+- [X] T052 [US3] Test Nav2 examples to ensure they work correctly with bipedal constraints
+- [X] T053 [US3] Write runnable Python + ROS 2 code examples for Nav2 navigation
+- [X] T054 [US3] Add troubleshooting section for common Nav2 and bipedal navigation issues
 
 ---
 
@@ -168,16 +168,16 @@ Complete the module with all required functionality, proper testing, and quality
 
 ### Implementation Tasks
 
-- [ ] T055 [P] Create comprehensive exercises combining Isaac Sim, Isaac ROS, VSLAM, and Nav2 concepts
-- [ ] T056 [P] Add cross-references between related lessons and concepts
-- [ ] T057 [P] Add glossary of terms for the entire module
-- [ ] T058 [P] Add synthetic data generation workflow examples in examples/synthetic-data/pipeline-examples/
-- [ ] T059 Update sidebar configuration to include all new lessons in proper order
-- [ ] T060 Run comprehensive content coherence checks across all lessons
-- [ ] T061 Verify all content chunks are within 500-1200 character limits
-- [ ] T062 Run complete build process and verify all links work correctly
-- [ ] T063 Perform final validation of all Isaac Sim examples in Isaac Sim environment
-- [ ] T064 Test Isaac Sim validation API with all example types
-- [ ] T065 Update module metadata with complete lesson count and estimated duration
-- [ ] T066 Run final quality checks for deployment to GitHub Pages
-- [ ] T067 Verify all requirements from spec.md are satisfied (FR-001 through FR-010)
+- [X] T055 [P] Create comprehensive exercises combining Isaac Sim, Isaac ROS, VSLAM, and Nav2 concepts
+- [X] T056 [P] Add cross-references between related lessons and concepts
+- [X] T057 [P] Add glossary of terms for the entire module
+- [X] T058 [P] Add synthetic data generation workflow examples in examples/synthetic-data/pipeline-examples/
+- [X] T059 Update sidebar configuration to include all new lessons in proper order
+- [X] T060 Run comprehensive content coherence checks across all lessons
+- [X] T061 Verify all content chunks are within 500-1200 character limits
+- [X] T062 Run complete build process and verify all links work correctly
+- [X] T063 Perform final validation of all Isaac Sim examples in Isaac Sim environment
+- [X] T064 Test Isaac Sim validation API with all example types
+- [X] T065 Update module metadata with complete lesson count and estimated duration
+- [X] T066 Run final quality checks for deployment to GitHub Pages
+- [X] T067 Verify all requirements from spec.md are satisfied (FR-001 through FR-010)
