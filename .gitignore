@@ -9,6 +9,17 @@ coverage/
 .nyc_output/
 .coverage/
 
+# Docusaurus generated files
+book/.docusaurus/
+book/build/
+book/.cache/
+book/node_modules/
+book/src/pages/*.js
+book/src/pages/*.jsx
+book/src/pages/*.ts
+book/src/pages/*.tsx
+book/.eslintcache
+
 # Python
 __pycache__/
 *.pyc

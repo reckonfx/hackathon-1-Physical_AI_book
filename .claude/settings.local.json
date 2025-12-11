@@ -58,7 +58,17 @@
       "Bash(dir \"book\\src\\pages\" /b)",
       "Bash(dir \"specs\\002-isaac-ai-brain\\checklists\" /b)",
       "Bash(dir \"specs\\002-isaac-ai-brain\\contracts\" /b)",
-      "Bash(dir \".gitignore\" /b)"
+      "Bash(dir \".gitignore\" /b)",
+      "Bash(cmd /c \"dir specs /ad /b\")",
+      "Bash(powershell -Command \"(Get-ChildItem -Path specs -Directory | Select-Object Name | ForEach-Object { [regex]::Match($_Name, ''^[0-9]+'').Value }) -as [int[]] | Measure-Object -Maximum | Select-Object -ExpandProperty Maximum\")",
+      "Bash(cmd /c \"dir /ad /b\")",
+      "Bash(mkdir -p backend/api/v1)",
+      "Bash(mkdir -p backend/services)",
+      "Bash(mkdir -p backend/models)",
+      "Bash(mkdir -p backend/tests)",
+      "Bash(pip install -r requirements.txt)",
+      "Bash(dir backend /ad /b)",
+      "Bash(python -m pytest backend/tests/ -v)"
     ],
     "deny": [],
     "ask": []
