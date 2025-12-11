@@ -1,7 +1,7 @@
 <!--
 Sync Impact Report:
-Version change: 1.0.0 → 1.1.0
-Added sections: GitHub configuration section
+Version change: 1.1.0 → 1.2.0
+Added sections: Agent definitions, Service configurations, Skill definitions
 Modified principles: None
 Removed sections: None
 Templates requiring updates: ⚠ pending - .specify/templates/plan-template.md, .specify/templates/spec-template.md, .specify/templates/tasks-template.md
@@ -11,7 +11,7 @@ Follow-up TODOs: None
 
 ## GitHub Configuration
 
-Repository: [https://github.com/reckonfx/hackathon-1-Physical_AI_book.git](https://github.com/reckonfx/hackathon-1-Physical_AI_book.git)
+Repository: https://github.com/reckonfx/hackathon-1-Physical_AI_book.git
 Branch: main
 Auto-commit: true
 Commit message prefix: [Specskit]
@@ -35,6 +35,48 @@ Full coverage of mandatory technical areas: ROS 2, Gazebo & Unity, NVIDIA Isaac,
 
 ### Reproducible and deployable workflows
 Entire workflow must be reproducible via project README; GitHub Pages deployment functional; FastAPI endpoints pass basic functional tests; Build process succeeds with npm run build
+
+## Project Agents
+
+### BookChatAgent
+Description: RAG agent to answer questions strictly from the book
+Skills: AnswerBookQuestions, RespondCalmlyToNonBookQuestions
+Services: rag_service, embedding_service, context7_service
+
+### TranslatorAgent
+Description: Translates book text into any language selected by the user
+Skills: TranslateText, DetectLanguage
+Services: translation_service, context7_service
+
+## Project Skills
+
+### AnswerBookQuestions
+Description: Use RAG to answer questions based on the book
+
+### RespondCalmlyToNonBookQuestions
+Description: Respond politely to unrelated questions
+
+### TranslateText
+Description: Translate text from one language to another
+
+### DetectLanguage
+Description: Detect input language for translation
+
+## Project Services
+
+### rag_service
+Type: vector_search
+Description: Retrieve relevant content from Qdrant using embeddings
+Configuration: qdrant_api_key, qdrant_url, embedding_model, llm_api_key, openai_agents_sdk
+
+### embedding_service
+Type: embedding
+Description: Convert book text into embeddings for RAG
+Configuration: model, api_key
+
+### context7_service
+Type: context_provider
+Description: Retrieve additional context for enhanced responses
 
 ## Key Standards and Constraints
 
@@ -61,4 +103,4 @@ All implementations must comply with technical coverage requirements
 Code reviews verify compliance with all principles and constraints
 Amendments require documentation and justification
 
-**Version**: 1.1.0 | **Ratified**: 2025-12-08 | **Last Amended**: 2025-12-10
+**Version**: 1.2.0 | **Ratified**: 2025-12-08 | **Last Amended**: 2025-12-10
