@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Physical AI & Humanoid Robotics',
-  tagline: 'A Comprehensive Guide by Aamir Ahmed Shamsi with Claude AI',
+  tagline: 'A Comprehensive Guide by Aamir Ahmed Shamsi with Claude AI - GitHub Pages Deployment',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
