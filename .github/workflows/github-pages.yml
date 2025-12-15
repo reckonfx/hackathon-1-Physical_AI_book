@@ -3,10 +3,10 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # or your default branch
+      - 002-isaac-ai-brain  # your development branch
   pull_request:
     branches:
-      - main
+      - 002-isaac-ai-brain
 
 jobs:
   deploy:
