@@ -13,8 +13,8 @@ if (typeof window !== 'undefined') {
   // For example: 'https://your-deployed-backend.onrender.com' or similar
   API_BASE_URL = 'https://localhost:8000'; // Update this to your deployed backend URL
 
-  // Temporary change to trigger rebuild
-  console.log('ChatWidget API config loaded');
+  // Temporary change to trigger rebuild - v2
+  console.log('ChatWidget API config loaded - v2');
 } else {
   // Server-side (build time) environment
   API_BASE_URL = 'http://localhost:8000'; // Default for builds
