@@ -11,14 +11,13 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://aamirahmedshamsi.github.io',
+  url: 'https://reckonfx.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/physical-ai-book/',
+  baseUrl: '/hackathon-1-Physical_AI_book/',
 
   // GitHub pages deployment config.
-  organizationName: 'aamirahmedshamsi',
-  projectName: 'physical-ai-book',
+  organizationName: 'reckonfx',
+  projectName: 'hackathon-1-Physical_AI_book',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
