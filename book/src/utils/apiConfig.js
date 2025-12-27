@@ -11,7 +11,7 @@ if (typeof window !== 'undefined') {
 
   // For GitHub Pages deployment, update this to your deployed backend URL
   // For example: 'https://your-deployed-backend.onrender.com' or similar
-  API_BASE_URL = 'https://localhost:8000'; // Update this to your deployed backend URL
+  API_BASE_URL = 'http://localhost:8000'; // Update this to your deployed backend URL
 
   // Temporary change to trigger rebuild - v2
   console.log('ChatWidget API config loaded - v2');

@@ -1,39 +1,185 @@
 {
-  "/docs-1a2": {
-    "__comp": "5e95c892",
+  "/hackathon-1-Physical_AI_book/__docusaurus/debug-1e1": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "79c5c3f0"
+      "plugin": "plugin---hackathon-1-physical-ai-book-docusaurus-debuge-4-a-959"
     }
   },
-  "/docs-9f5": {
-    "__comp": "a7bd4aaa",
-    "version": "935f2afb"
+  "/hackathon-1-Physical_AI_book/__docusaurus/debug/config-f94": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---hackathon-1-physical-ai-book-docusaurus-debuge-4-a-959"
+    }
   },
-  "/docs-58f": {
-    "__comp": "a94703ab"
+  "/hackathon-1-Physical_AI_book/__docusaurus/debug/content-efb": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---hackathon-1-physical-ai-book-docusaurus-debuge-4-a-959"
+    },
+    "allContent": "allContent---hackathon-1-physical-ai-book-docusaurus-debug-content-246-85f"
   },
-  "/docs/module-4-vla/comprehensive-exercises-c16": {
-    "__comp": "17896441",
-    "content": "708afa4c"
+  "/hackathon-1-Physical_AI_book/__docusaurus/debug/globalData-8ae": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---hackathon-1-physical-ai-book-docusaurus-debuge-4-a-959"
+    }
   },
-  "/docs/module-4-vla/cross-references-efe": {
-    "__comp": "17896441",
-    "content": "ca510c5a"
+  "/hackathon-1-Physical_AI_book/__docusaurus/debug/metadata-c6a": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---hackathon-1-physical-ai-book-docusaurus-debuge-4-a-959"
+    }
   },
-  "/docs/module-4-vla/glossary-402": {
-    "__comp": "17896441",
-    "content": "c0ed347a"
+  "/hackathon-1-Physical_AI_book/__docusaurus/debug/registry-02c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---hackathon-1-physical-ai-book-docusaurus-debuge-4-a-959"
+    }
   },
-  "/docs/module-4-vla/lesson-1-vla-fundamentals-065": {
-    "__comp": "17896441",
-    "content": "60072968"
+  "/hackathon-1-Physical_AI_book/__docusaurus/debug/routes-083": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---hackathon-1-physical-ai-book-docusaurus-debuge-4-a-959"
+    }
   },
-  "/docs/module-4-vla/lesson-2-vla-capstone-24c": {
-    "__comp": "17896441",
-    "content": "b37aae09"
+  "/hackathon-1-Physical_AI_book/docs-71d": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---hackathon-1-physical-ai-book-docs-79-c-caf"
+    }
   },
-  "/docs/module-4-vla/worked-examples-4bc": {
-    "__comp": "17896441",
-    "content": "f831ffd0"
+  "/hackathon-1-Physical_AI_book/docs-9c1": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "version": "version---hackathon-1-physical-ai-book-docs-935-c77"
+  },
+  "/hackathon-1-Physical_AI_book/docs-5e5": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/hackathon-1-Physical_AI_book/docs/gazebo-unity-sim/cross-platform-simulation-workflows-51c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-1-physical-ai-book-docs-gazebo-unity-sim-cross-platform-simulation-workflows-2-ca-bcb"
+  },
+  "/hackathon-1-Physical_AI_book/docs/gazebo-unity-sim/gazebo-physics-and-sensors-14c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-1-physical-ai-book-docs-gazebo-unity-sim-gazebo-physics-and-sensors-20-e-8e6"
+  },
+  "/hackathon-1-Physical_AI_book/docs/gazebo-unity-sim/gazebo-robot-modeling-ada": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-1-physical-ai-book-docs-gazebo-unity-sim-gazebo-robot-modelingcef-103"
+  },
+  "/hackathon-1-Physical_AI_book/docs/gazebo-unity-sim/intro-721": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-1-physical-ai-book-docs-gazebo-unity-sim-intro-3-d-2-3c7"
+  },
+  "/hackathon-1-Physical_AI_book/docs/gazebo-unity-sim/simulation-conclusion-5df": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-1-physical-ai-book-docs-gazebo-unity-sim-simulation-conclusionfc-7-c2c"
+  },
+  "/hackathon-1-Physical_AI_book/docs/gazebo-unity-sim/simulation-optimization-975": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-1-physical-ai-book-docs-gazebo-unity-sim-simulation-optimization-763-e3c"
+  },
+  "/hackathon-1-Physical_AI_book/docs/gazebo-unity-sim/unity-robotics-hub-integration-cd8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-1-physical-ai-book-docs-gazebo-unity-sim-unity-robotics-hub-integrationd-80-0af"
+  },
+  "/hackathon-1-Physical_AI_book/docs/isaac-ai-brain/conclusion-and-next-steps-054": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-1-physical-ai-book-docs-isaac-ai-brain-conclusion-and-next-stepsd-92-dee"
+  },
+  "/hackathon-1-Physical_AI_book/docs/isaac-ai-brain/interactive-tutorials-8a0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-1-physical-ai-book-docs-isaac-ai-brain-interactive-tutorials-135-0f2"
+  },
+  "/hackathon-1-Physical_AI_book/docs/isaac-ai-brain/intro-a03": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-1-physical-ai-book-docs-isaac-ai-brain-intro-7-a-1-36b"
+  },
+  "/hackathon-1-Physical_AI_book/docs/isaac-ai-brain/isaac-ros-integration-e9c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-1-physical-ai-book-docs-isaac-ai-brain-isaac-ros-integrationdb-4-80a"
+  },
+  "/hackathon-1-Physical_AI_book/docs/isaac-ai-brain/isaac-sim-fundamentals-ef0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-1-physical-ai-book-docs-isaac-ai-brain-isaac-sim-fundamentalsc-05-c85"
+  },
+  "/hackathon-1-Physical_AI_book/docs/isaac-ai-brain/nav2-navigation-stack-1bd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-1-physical-ai-book-docs-isaac-ai-brain-nav-2-navigation-stacka-3-f-8b8"
+  },
+  "/hackathon-1-Physical_AI_book/docs/isaac-ai-brain/synthetic-data-generation-8ea": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-1-physical-ai-book-docs-isaac-ai-brain-synthetic-data-generationede-bef"
+  },
+  "/hackathon-1-Physical_AI_book/docs/isaac-ai-brain/vslam-implementation-cce": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-1-physical-ai-book-docs-isaac-ai-brain-vslam-implementationb-7-c-81d"
+  },
+  "/hackathon-1-Physical_AI_book/docs/ros2-fundamentals/intro-85c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-1-physical-ai-book-docs-ros-2-fundamentals-intro-393-4ce"
+  },
+  "/hackathon-1-Physical_AI_book/docs/ros2-fundamentals/ros2-conclusion-84f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-1-physical-ai-book-docs-ros-2-fundamentals-ros-2-conclusion-3-a-6-64f"
+  },
+  "/hackathon-1-Physical_AI_book/docs/ros2-fundamentals/ros2-launch-systems-19c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-1-physical-ai-book-docs-ros-2-fundamentals-ros-2-launch-systemsec-6-5e1"
+  },
+  "/hackathon-1-Physical_AI_book/docs/ros2-fundamentals/ros2-nodes-and-topics-e6e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-1-physical-ai-book-docs-ros-2-fundamentals-ros-2-nodes-and-topics-494-3f9"
+  },
+  "/hackathon-1-Physical_AI_book/docs/ros2-fundamentals/ros2-packages-and-workspaces-85b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-1-physical-ai-book-docs-ros-2-fundamentals-ros-2-packages-and-workspaces-6-fc-d44"
+  },
+  "/hackathon-1-Physical_AI_book/docs/ros2-fundamentals/ros2-parameters-and-composition-2c2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-1-physical-ai-book-docs-ros-2-fundamentals-ros-2-parameters-and-compositiond-0-e-d58"
+  },
+  "/hackathon-1-Physical_AI_book/docs/ros2-fundamentals/ros2-services-and-actions-4b3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-1-physical-ai-book-docs-ros-2-fundamentals-ros-2-services-and-actionsf-9-e-7f3"
+  },
+  "/hackathon-1-Physical_AI_book/docs/vla-models/action-generation-and-execution-d08": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-1-physical-ai-book-docs-vla-models-action-generation-and-executionccc-b77"
+  },
+  "/hackathon-1-Physical_AI_book/docs/vla-models/intro-273": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-1-physical-ai-book-docs-vla-models-intro-7-f-6-425"
+  },
+  "/hackathon-1-Physical_AI_book/docs/vla-models/language-grounding-in-robotics-975": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-1-physical-ai-book-docs-vla-models-language-grounding-in-robotics-9-d-1-cb2"
+  },
+  "/hackathon-1-Physical_AI_book/docs/vla-models/perception-and-understanding-597": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-1-physical-ai-book-docs-vla-models-perception-and-understanding-1-a-0-cf3"
+  },
+  "/hackathon-1-Physical_AI_book/docs/vla-models/vla-conclusion-and-future-directions-28f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-1-physical-ai-book-docs-vla-models-vla-conclusion-and-future-directionsd-66-4fb"
+  },
+  "/hackathon-1-Physical_AI_book/docs/vla-models/vla-integration-with-robot-platforms-e3a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-1-physical-ai-book-docs-vla-models-vla-integration-with-robot-platforms-640-6f7"
+  },
+  "/hackathon-1-Physical_AI_book/docs/vla-models/vla-models-overview-2be": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-1-physical-ai-book-docs-vla-models-vla-models-overview-2-c-4-c8c"
+  },
+  "/hackathon-1-Physical_AI_book/docs/vla-models/vla-training-workflows-1b9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---hackathon-1-physical-ai-book-docs-vla-models-vla-training-workflows-5-c-4-7c2"
+  },
+  "/hackathon-1-Physical_AI_book/-598": {
+    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
+    "__context": {
+      "plugin": "plugin---hackathon-1-physical-ai-book-c-6-c-e14"
+    },
+    "config": "config---hackathon-1-physical-ai-book-5-e-9-ce6"
   }
 }

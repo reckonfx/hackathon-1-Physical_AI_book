@@ -1,0 +1,118 @@
+openapi: 3.0.0
+info:
+  title: Physical AI Book RAG API
+  description: API for retrieval-augmented generation functionality for the Physical AI Book
+  version: 1.0.0
+paths:
+  /api/chat:
+    post:
+      summary: Chat endpoint with RAG functionality
+      description: Process a chat request using RAG to answer questions about the Physical AI book
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ChatRequest'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ChatResponse'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  detail:
+                    type: string
+                    example: "Chat failed: error message"
+      tags:
+        - chat
+  /api/chat/stream:
+    post:
+      summary: Streaming chat endpoint
+      description: Streaming chat endpoint (placeholder for future implementation)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ChatRequest'
+      responses:
+        '200':
+          description: Streaming response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ChatResponse'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  detail:
+                    type: string
+                    example: "Streaming chat failed: error message"
+      tags:
+        - chat
+components:
+  schemas:
+    ChatMessage:
+      type: object
+      properties:
+        role:
+          type: string
+          enum: [user, assistant, system]
+          description: Role of the message sender
+        content:
+          type: string
+          description: Content of the message
+      required:
+        - role
+        - content
+    ChatRequest:
+      type: object
+      properties:
+        messages:
+          type: array
+          items:
+            $ref: '#/components/schemas/ChatMessage'
+          description: Conversation history
+        max_results:
+          type: integer
+          default: 5
+          description: Maximum number of RAG results to retrieve
+        module_filter:
+          type: string
+          nullable: true
+          description: Filter for specific book modules
+      required:
+        - messages
+    ChatResponse:
+      type: object
+      properties:
+        response:
+          type: string
+          description: AI-generated response
+        sources:
+          type: array
+          items:
+            type: string
+          description: List of source documents used
+        tokens_used:
+          type: integer
+          description: Approximate token count
+      required:
+        - response
+        - sources
+        - tokens_used
+tags:
+  - name: chat
+    description: Chat and RAG functionality

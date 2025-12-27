@@ -58,7 +58,16 @@
       "Bash(dir \"book\\src\\pages\" /b)",
       "Bash(dir \"specs\\002-isaac-ai-brain\\checklists\" /b)",
       "Bash(dir \"specs\\002-isaac-ai-brain\\contracts\" /b)",
-      "Bash(dir \".gitignore\" /b)"
+      "Bash(dir \".gitignore\" /b)",
+      "Bash(python -c \"import langchain_core; print([x for x in dir(langchain_core) if ''exec'' in x.lower()])\")",
+      "Bash(python -c \"import langchain.agents; print(dir(langchain.agents))\")",
+      "Bash(python run_server.py)",
+      "Bash(mkdir -p specs/1-openrouter-chatbot-migration)",
+      "Bash(timeout 10s curl -s http://localhost:8000/)",
+      "Bash(taskkill /F /IM node.exe)",
+      "Bash(npm run start)",
+      "Bash(powershell -Command \"Get-Content ''C:\\\\Users\\\\AKE\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-AKE-Desktop-hackathon\\\\tasks\\\\bba904a.output'' -ErrorAction SilentlyContinue\")",
+      "Bash(timeout 10s curl -s \"http://localhost:3000/hackathon-1-Physical_AI_book/\")"
     ],
     "deny": [],
     "ask": []

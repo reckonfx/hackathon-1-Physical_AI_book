@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+openai
+qdrant-client
+numpy
+tiktoken
+python-dotenv

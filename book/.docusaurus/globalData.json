@@ -1,52 +1,190 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/hackathon-1-Physical_AI_book/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs",
-          "mainDocId": "module-4-vla/lesson-1-vla-fundamentals",
+          "path": "/hackathon-1-Physical_AI_book/docs",
+          "mainDocId": "ros2-fundamentals/intro",
           "docs": [
             {
-              "id": "module-4-vla/comprehensive-exercises",
-              "path": "/docs/module-4-vla/comprehensive-exercises",
-              "sidebar": "tutorialSidebar"
+              "id": "gazebo-unity-sim/cross-platform-simulation-workflows",
+              "path": "/hackathon-1-Physical_AI_book/docs/gazebo-unity-sim/cross-platform-simulation-workflows",
+              "sidebar": "gazeboSidebar"
             },
             {
-              "id": "module-4-vla/cross-references",
-              "path": "/docs/module-4-vla/cross-references",
-              "sidebar": "tutorialSidebar"
+              "id": "gazebo-unity-sim/gazebo-physics-and-sensors",
+              "path": "/hackathon-1-Physical_AI_book/docs/gazebo-unity-sim/gazebo-physics-and-sensors",
+              "sidebar": "gazeboSidebar"
             },
             {
-              "id": "module-4-vla/glossary",
-              "path": "/docs/module-4-vla/glossary",
-              "sidebar": "tutorialSidebar"
+              "id": "gazebo-unity-sim/gazebo-robot-modeling",
+              "path": "/hackathon-1-Physical_AI_book/docs/gazebo-unity-sim/gazebo-robot-modeling",
+              "sidebar": "gazeboSidebar"
             },
             {
-              "id": "module-4-vla/lesson-1-vla-fundamentals",
-              "path": "/docs/module-4-vla/lesson-1-vla-fundamentals",
-              "sidebar": "tutorialSidebar"
+              "id": "gazebo-unity-sim/intro",
+              "path": "/hackathon-1-Physical_AI_book/docs/gazebo-unity-sim/intro",
+              "sidebar": "gazeboSidebar"
             },
             {
-              "id": "module-4-vla/lesson-2-vla-capstone",
-              "path": "/docs/module-4-vla/lesson-2-vla-capstone",
-              "sidebar": "tutorialSidebar"
+              "id": "gazebo-unity-sim/simulation-conclusion",
+              "path": "/hackathon-1-Physical_AI_book/docs/gazebo-unity-sim/simulation-conclusion",
+              "sidebar": "gazeboSidebar"
             },
             {
-              "id": "module-4-vla/worked-examples",
-              "path": "/docs/module-4-vla/worked-examples",
-              "sidebar": "tutorialSidebar"
+              "id": "gazebo-unity-sim/simulation-optimization",
+              "path": "/hackathon-1-Physical_AI_book/docs/gazebo-unity-sim/simulation-optimization",
+              "sidebar": "gazeboSidebar"
+            },
+            {
+              "id": "gazebo-unity-sim/unity-robotics-hub-integration",
+              "path": "/hackathon-1-Physical_AI_book/docs/gazebo-unity-sim/unity-robotics-hub-integration",
+              "sidebar": "gazeboSidebar"
+            },
+            {
+              "id": "isaac-ai-brain/conclusion-and-next-steps",
+              "path": "/hackathon-1-Physical_AI_book/docs/isaac-ai-brain/conclusion-and-next-steps",
+              "sidebar": "isaacSidebar"
+            },
+            {
+              "id": "isaac-ai-brain/interactive-tutorials",
+              "path": "/hackathon-1-Physical_AI_book/docs/isaac-ai-brain/interactive-tutorials",
+              "sidebar": "isaacSidebar"
+            },
+            {
+              "id": "isaac-ai-brain/intro",
+              "path": "/hackathon-1-Physical_AI_book/docs/isaac-ai-brain/intro",
+              "sidebar": "isaacSidebar"
+            },
+            {
+              "id": "isaac-ai-brain/isaac-ros-integration",
+              "path": "/hackathon-1-Physical_AI_book/docs/isaac-ai-brain/isaac-ros-integration",
+              "sidebar": "isaacSidebar"
+            },
+            {
+              "id": "isaac-ai-brain/isaac-sim-fundamentals",
+              "path": "/hackathon-1-Physical_AI_book/docs/isaac-ai-brain/isaac-sim-fundamentals",
+              "sidebar": "isaacSidebar"
+            },
+            {
+              "id": "isaac-ai-brain/nav2-navigation-stack",
+              "path": "/hackathon-1-Physical_AI_book/docs/isaac-ai-brain/nav2-navigation-stack",
+              "sidebar": "isaacSidebar"
+            },
+            {
+              "id": "isaac-ai-brain/synthetic-data-generation",
+              "path": "/hackathon-1-Physical_AI_book/docs/isaac-ai-brain/synthetic-data-generation",
+              "sidebar": "isaacSidebar"
+            },
+            {
+              "id": "isaac-ai-brain/vslam-implementation",
+              "path": "/hackathon-1-Physical_AI_book/docs/isaac-ai-brain/vslam-implementation",
+              "sidebar": "isaacSidebar"
+            },
+            {
+              "id": "ros2-fundamentals/intro",
+              "path": "/hackathon-1-Physical_AI_book/docs/ros2-fundamentals/intro",
+              "sidebar": "ros2Sidebar"
+            },
+            {
+              "id": "ros2-fundamentals/ros2-conclusion",
+              "path": "/hackathon-1-Physical_AI_book/docs/ros2-fundamentals/ros2-conclusion",
+              "sidebar": "ros2Sidebar"
+            },
+            {
+              "id": "ros2-fundamentals/ros2-launch-systems",
+              "path": "/hackathon-1-Physical_AI_book/docs/ros2-fundamentals/ros2-launch-systems",
+              "sidebar": "ros2Sidebar"
+            },
+            {
+              "id": "ros2-fundamentals/ros2-nodes-and-topics",
+              "path": "/hackathon-1-Physical_AI_book/docs/ros2-fundamentals/ros2-nodes-and-topics",
+              "sidebar": "ros2Sidebar"
+            },
+            {
+              "id": "ros2-fundamentals/ros2-packages-and-workspaces",
+              "path": "/hackathon-1-Physical_AI_book/docs/ros2-fundamentals/ros2-packages-and-workspaces",
+              "sidebar": "ros2Sidebar"
+            },
+            {
+              "id": "ros2-fundamentals/ros2-parameters-and-composition",
+              "path": "/hackathon-1-Physical_AI_book/docs/ros2-fundamentals/ros2-parameters-and-composition",
+              "sidebar": "ros2Sidebar"
+            },
+            {
+              "id": "ros2-fundamentals/ros2-services-and-actions",
+              "path": "/hackathon-1-Physical_AI_book/docs/ros2-fundamentals/ros2-services-and-actions",
+              "sidebar": "ros2Sidebar"
+            },
+            {
+              "id": "vla-models/action-generation-and-execution",
+              "path": "/hackathon-1-Physical_AI_book/docs/vla-models/action-generation-and-execution",
+              "sidebar": "vlaSidebar"
+            },
+            {
+              "id": "vla-models/intro",
+              "path": "/hackathon-1-Physical_AI_book/docs/vla-models/intro",
+              "sidebar": "vlaSidebar"
+            },
+            {
+              "id": "vla-models/language-grounding-in-robotics",
+              "path": "/hackathon-1-Physical_AI_book/docs/vla-models/language-grounding-in-robotics",
+              "sidebar": "vlaSidebar"
+            },
+            {
+              "id": "vla-models/perception-and-understanding",
+              "path": "/hackathon-1-Physical_AI_book/docs/vla-models/perception-and-understanding",
+              "sidebar": "vlaSidebar"
+            },
+            {
+              "id": "vla-models/vla-conclusion-and-future-directions",
+              "path": "/hackathon-1-Physical_AI_book/docs/vla-models/vla-conclusion-and-future-directions",
+              "sidebar": "vlaSidebar"
+            },
+            {
+              "id": "vla-models/vla-integration-with-robot-platforms",
+              "path": "/hackathon-1-Physical_AI_book/docs/vla-models/vla-integration-with-robot-platforms",
+              "sidebar": "vlaSidebar"
+            },
+            {
+              "id": "vla-models/vla-models-overview",
+              "path": "/hackathon-1-Physical_AI_book/docs/vla-models/vla-models-overview",
+              "sidebar": "vlaSidebar"
+            },
+            {
+              "id": "vla-models/vla-training-workflows",
+              "path": "/hackathon-1-Physical_AI_book/docs/vla-models/vla-training-workflows",
+              "sidebar": "vlaSidebar"
             }
           ],
           "draftIds": [],
           "sidebars": {
-            "tutorialSidebar": {
+            "ros2Sidebar": {
               "link": {
-                "path": "/docs/module-4-vla/lesson-1-vla-fundamentals",
-                "label": "module-4-vla/lesson-1-vla-fundamentals"
+                "path": "/hackathon-1-Physical_AI_book/docs/ros2-fundamentals/intro",
+                "label": "ros2-fundamentals/intro"
+              }
+            },
+            "gazeboSidebar": {
+              "link": {
+                "path": "/hackathon-1-Physical_AI_book/docs/gazebo-unity-sim/intro",
+                "label": "gazebo-unity-sim/intro"
+              }
+            },
+            "isaacSidebar": {
+              "link": {
+                "path": "/hackathon-1-Physical_AI_book/docs/isaac-ai-brain/intro",
+                "label": "isaac-ai-brain/intro"
+              }
+            },
+            "vlaSidebar": {
+              "link": {
+                "path": "/hackathon-1-Physical_AI_book/docs/vla-models/intro",
+                "label": "vla-models/intro"
               }
             }
           }

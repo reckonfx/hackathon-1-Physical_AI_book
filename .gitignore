@@ -1,13 +1,15 @@
 # Node.js/Docusaurus
 node_modules/
 dist/
-build/
 *.log
 .env*
 .nyc_output/
 coverage/
 .nyc_output/
 .coverage/
+
+# Docusaurus build output
+book/build/
 
 # Python
 __pycache__/
@@ -58,3 +60,6 @@ yarn-error.log*
 node_modules_rebuild
 *.sublime-workspace
 *.local
+
+# Webpack cache
+book/node_modules/.cache/
