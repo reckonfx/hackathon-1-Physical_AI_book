@@ -1,17 +1,7 @@
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
  */
 
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
-
-/* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
@@ -20,20 +10,34 @@
   --ifm-color-primary-light: #33925d;
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6d;
+  --ifm-color-primary-rgb: 46, 133, 85;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
   /* Module-specific colors */
-  --ros2-color: #ff6600;          /* Orange for ROS2 */
-  --gazebo-color: #00aaff;        /* Blue for Gazebo */
-  --isaac-color: #7700ff;         /* Purple for Isaac */
-  --vla-color: #00cc66;           /* Green for VLA */
+  --ros2-color: #ff6600;
+  --gazebo-color: #00aaff;
+  --isaac-color: #7700ff;
+  --vla-color: #00cc66;
+  --author-color: #8a2be2;
 
-  /* Author information */
-  --author-color: #8a2be2;        /* Purple for author */
+  /* Typography Modernization */
+  --ifm-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --ifm-line-height-base: 1.625;
+  --ifm-h1-font-size: 2.5rem;
+  --ifm-h2-font-size: 2rem;
+  --ifm-h3-font-size: 1.5rem;
+  --ifm-heading-font-weight: 700;
+  --ifm-paragraph-margin-bottom: 1.25rem;
+
+  /* Modern UI Variables */
+  --ifm-transition-fast: 0.2s ease;
+  --ifm-transition-slow: 0.4s ease;
+  --sidebar-hover-bg: rgba(0, 0, 0, 0.05);
+  --card-lift-transform: translateY(-6px);
+  --card-shadow-active: 0 12px 32px rgba(0, 0, 0, 0.12);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
@@ -42,131 +46,80 @@
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary-rgb: 37, 194, 160;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-
-  /* Dark mode module colors */
-  --ros2-color-dark: #ff8833;
-  --gazebo-color-dark: #33ccff;
-  --isaac-color-dark: #9966ff;
-  --vla-color-dark: #33e088;
+  --sidebar-hover-bg: rgba(255, 255, 255, 0.05);
+  --card-shadow-active: 0 12px 32px rgba(0, 0, 0, 0.4);
 }
 
-/* Module-specific styling */
-.ros2-module {
-  border-left: 4px solid var(--ros2-color);
-  background-color: rgba(255, 102, 0, 0.05);
+/* Typography Overrides */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: var(--ifm-heading-font-weight);
+  margin-bottom: var(--ifm-heading-margin-bottom);
 }
 
-.gazebo-module {
-  border-left: 4px solid var(--gazebo-color);
-  background-color: rgba(0, 170, 255, 0.05);
-}
-
-.isaac-module {
-  border-left: 4px solid var(--isaac-color);
-  background-color: rgba(119, 0, 255, 0.05);
-}
-
-.vla-module {
-  border-left: 4px solid var(--vla-color);
-  background-color: rgba(0, 204, 102, 0.05);
-}
-
-/* Dark mode module styling */
-[data-theme='dark'] .ros2-module {
-  background-color: rgba(255, 136, 51, 0.1);
-}
-
-[data-theme='dark'] .gazebo-module {
-  background-color: rgba(51, 204, 255, 0.1);
-}
-
-[data-theme='dark'] .isaac-module {
-  background-color: rgba(153, 102, 255, 0.1);
-}
-
-[data-theme='dark'] .vla-module {
-  background-color: rgba(51, 224, 136, 0.1);
-}
-
-/* Author information block */
-.author-info {
-  background-color: rgba(138, 43, 226, 0.1);
-  border: 1px solid var(--author-color);
-  border-radius: 8px;
-  padding: 1rem;
-  margin: 1rem 0;
-}
-
-.author-info h3 {
-  color: var(--author-color);
-  margin-top: 0;
-}
-
-/* Custom card styling */
-.module-card {
-  border-radius: 8px;
-  padding: 1rem;
-  margin: 1rem 0;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-.module-card.ros2 {
-  border-top: 3px solid var(--ros2-color);
-}
-
-.module-card.gazebo {
-  border-top: 3px solid var(--gazebo-color);
-}
-
-.module-card.isaac {
-  border-top: 3px solid var(--isaac-color);
-}
-
-.module-card.vla {
-  border-top: 3px solid var(--vla-color);
-}
-
-/* Code block enhancements */
-.docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.1);
-  display: block;
-  margin: 0 calc(-1 * var(--ifm-pre-padding));
-  padding: 0 var(--ifm-pre-padding);
-}
-
-[data-theme='dark'] .docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
-/* Footer enhancements */
-.footer {
-  background-color: #2b2b2b;
-}
-
-.footer__copyright {
-  text-align: center;
-  color: #aaa;
-}
-
-/* Navigation enhancements */
-.navbar {
-  background-color: #353535;
-}
-
-.navbar__title {
-  color: white;
-}
-
-.navbar__link {
-  color: #ddd;
-}
-
-/* Sidebar enhancements */
+/* Sidebar Modernization */
 .menu {
-  background-color: #f8f9fa;
+  background-color: transparent !important;
+  padding: 1rem 0;
 }
 
-[data-theme='dark'] .menu {
-  background-color: #2a2a2a;
+.menu__link {
+  border-radius: 8px;
+  margin: 2px 0;
+  transition: all var(--ifm-transition-fast);
+  font-weight: 500;
+}
+
+.menu__link:hover {
+  background-color: var(--sidebar-hover-bg);
+  transform: translateX(4px);
+}
+
+.menu__link--active {
+  background-color: rgba(var(--ifm-color-primary-rgb), 0.1) !important;
+  color: var(--ifm-color-primary) !important;
+  font-weight: 700;
+}
+
+/* Homepage Cards */
+.module-card {
+  border-radius: 16px;
+  padding: 2rem;
+  background: var(--ifm-card-background-color);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none !important;
+  color: inherit !important;
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.module-card:hover {
+  transform: var(--card-lift-transform);
+  box-shadow: var(--card-shadow-active);
+  border-color: var(--ifm-color-primary);
+}
+
+.module-card h2 {
+  margin-top: 0;
+  color: var(--ifm-color-primary);
+}
+
+.module-card.ros2 { border-top: 6px solid var(--ros2-color); }
+.module-card.gazebo { border-top: 6px solid var(--gazebo-color); }
+.module-card.isaac { border-top: 6px solid var(--isaac-color); }
+.module-card.vla { border-top: 6px solid var(--vla-color); }
+
+/* Global Layout Updates */
+.navbar {
+  box-shadow: var(--ifm-global-shadow-lw);
+  transition: background-color var(--ifm-transition-fast);
+}
+
+.footer {
+  margin-top: 4rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
 }
